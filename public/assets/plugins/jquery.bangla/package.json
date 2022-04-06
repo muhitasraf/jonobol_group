@@ -1,0 +1,78 @@
+{
+  "_from": "jquery.bangla",
+  "_id": "jquery.bangla@1.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-pW3hsPq5AwjZ3QWLCqaHnUUyfIV7PfuzUq4JviWFqXGPgK8lMpebu+9Z0iSLDQdfrPvMeIVVmEewbIryXsXWtg==",
+  "_location": "/jquery.bangla",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "jquery.bangla",
+    "name": "jquery.bangla",
+    "escapedName": "jquery.bangla",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery.bangla/-/jquery.bangla-1.3.1.tgz",
+  "_shasum": "8b9e777d923a1fd4f1c28e470169887c32fab931",
+  "_spec": "jquery.bangla",
+  "_where": "E:\\xampp-7\\htdocs\\hr_rupganj",
+  "author": {
+    "name": "Sudipto Chandra",
+    "email": "dipu.sudipta@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/dipu-bd/bangla-input/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A versatile bangla input tool for the web",
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3"
+  },
+  "homepage": "https://github.com/dipu-bd/bangla-input#readme",
+  "keywords": [
+    "bangla",
+    "avro",
+    "jsavro",
+    "phonetic",
+    "typing",
+    "input",
+    "tool",
+    "ime",
+    "jquery",
+    "jquery.bangla",
+    "jquery.bninput",
+    "input tools",
+    "bangla input"
+  ],
+  "license": "MPL-2.0",
+  "main": "./dist/jquery.bangla.js",
+  "name": "jquery.bangla",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dipu-bd/bangla-input.git"
+  },
+  "scripts": {
+    "build": "webpack --progress --mode production",
+    "dev": "webpack --watch --progress --hide-modules --watch-poll --mode development",
+    "gh-pages": "sh gh-pages.sh",
+    "lint": "eslint ./src/index.js",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.3.1"
+}

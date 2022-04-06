@@ -1,0 +1,35 @@
+body.font-opensans {
+    font-family: "Verdana", "SutonnyMJ", sans-serif;
+    font-size: 12px;
+}
+.select-dropdown {
+    position: static;
+}
+.select-dropdown .select-dropdown--above {
+    margin-top: 336px;
+}
+.scroll-div {
+    position: relative;
+    overflow: auto;
+    max-height: 450px;
+    width: 100%;
+}
+
+@media print {
+    .dataTables_filter, .dt-buttons {
+        visibility: hidden;
+    }
+}
+.dataTables_filter {
+    float: left !important;
+}
+
+form.delete_btn {
+    margin-top: -22px;
+    margin-left: 35px;
+}
+
+.input-highlight{
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
